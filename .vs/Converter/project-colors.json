@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7e75b020-100b-453a-a5a9-9acab888acda": {
+      "ProjectGuid": "7e75b020-100b-453a-a5a9-9acab888acda",
+      "DisplayName": "Converter",
+      "ColorIndex": 0
+    },
+    "653b4a81-001b-496a-9d57-f2fd49269143": {
+      "ProjectGuid": "653b4a81-001b-496a-9d57-f2fd49269143",
+      "DisplayName": "ConverterTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
