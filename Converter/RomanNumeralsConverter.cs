@@ -1,29 +1,52 @@
-﻿namespace Converter
+﻿using System.Text
+
+namespace Converter
 {
     public class RomanNumeralsConverter
     {
-        static Dictionary<int, string> numeralToRomanMapping = new Dictionary<int, string>()
+
+         public string Convert(int numeral)
         {
-            {1,"I" },
-            {2,"II" },
-            {3,"III" },
-            {4,"IV" },
-            {5,"V" },
-            {6,"VI" },
-            {7,"VII" },
-            {8,"VIII" },
-            {9,"IX" },
-            {10,"X" }
+
+         if (numeral < 1 || numeral > 200)
+     throw new ArgumentOutOfRangeException(nameof(numeral), "The Testcase is out of range");
+           
+        Dictionary<int, string> numeralToRomanMapping = new Dictionary<int, string>()
+        {
+            {1000, "M"},
+            {900, "CM"},
+            {500, "D"},
+            {400, "CD"},
+            {100, "C"},
+            {90, "XC"},
+            {50, "L"},
+            {40, "XL"},
+            {10, "X"},
+            {9, "IX"},
+            {5, "V"},
+            {4, "IV"},
+            {1, "I"}
         };
-
-        public RomanNumeralsConverter()
+        return CreateRomanNumeralString(numeral, numeralToRomanMapping);
+    /*    public RomanNumeralsConverter()
         {
+        } */
+            //return numeralToRomanMapping[numeral];
+
         }
 
-        public string Convert(int numeral)
-        {
-            return numeralToRomanMapping[numeral];
+        private string CreateRomanNumeralString(int numeral, Dictionary<int, string> numeralToRomanMapping)
+        { 
+            var result = new StringBuilder();
+            foreach (var entry in numeralToRomanMapping)
+            {
+                while (numeral >= entry.Key)
+                {
+                    result.Append(entry.Value);
+                    numeral -= entry.Key;
+                }
+            }
+            return result.ToString();
 
-        }
     }
 }
