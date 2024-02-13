@@ -46,6 +46,9 @@ namespace ConverterTest
         [TestCase(9, "IX")]
         [TestCase(10, "X")]
         [TestCase(15, "XV")]
+        [TestCase(20, "XX")]
+        [TestCase(50, "L")]
+        [TestCase(100, "C")]
         public void WhenConverting_Numeral_ThenEquals_Roman(int numeral, string roman)
         {
             var result = _romanNumeralsConverter.Convert(numeral);
