@@ -35,7 +35,7 @@ namespace ConverterTest
             _romanNumeralsConverter = new RomanNumeralsConverter();
         }
 
-        [TestCase(1,"I")]
+        [TestCase(1, "I")]
         [TestCase(2, "II")]
         [TestCase(3, "III")]
         [TestCase(4, "IV")]
@@ -46,11 +46,13 @@ namespace ConverterTest
         [TestCase(9, "IX")]
         [TestCase(10, "X")]
         [TestCase(15, "XV")]
-        [TestCase(50,"L")]
+        [TestCase(50, "L")]
         [TestCase(47, "XLVII")]
         [TestCase(99, "XCIX")]
         [TestCase(100, "C")]
         [TestCase(200, "CC")]
+        [TestCase(400, "CD")]
+        [TestCase(10000, "MMMMMMMMMM")]
         public void WhenConverting_Numeral_ThenEquals_Roman(int numeral, string roman)
         {
             var result = _romanNumeralsConverter.Convert(numeral);
