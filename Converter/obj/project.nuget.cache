@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6X2fpgDTdzOLQ/8EZ0HCayAryfKWDCzVBnQJZ5xgdwLw52FPWfbX9U4XgGvvazW+Kqx8kL3oWxHLg8xauD9Wjw==",
+  "dgSpecHash": "AuxBJby0JKFjyEJAwqJPtpklhxDEP/3Y/GVU8MKbM2mC8dvILevaYZRJWHkTAQnGL6vfpxXiqFdIkV3C5UJo5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\TechOne\\OneDrive\\Desktop\\C#\\Converter\\Converter\\Converter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TechOne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\TechOne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\TechOne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
