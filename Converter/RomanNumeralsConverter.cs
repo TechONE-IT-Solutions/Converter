@@ -28,20 +28,6 @@
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         static object[][] HakimJaggedArray = new object[][]
             {
                 new object[] {1000, "M"},
