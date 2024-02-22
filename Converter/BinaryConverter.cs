@@ -12,7 +12,14 @@ namespace Converter
 
         public string Convert(int number)
         {
-            throw new NotImplementedException();
+            string binaryNumber = "";
+            while (number > 0)
+                {
+                    int remainder = number % 2;
+                    binaryNumber = remainder + binaryNumber;
+                    number /= 2;
+                }
+            return binaryNumber;
         }
 
         protected int dotnotCover()
