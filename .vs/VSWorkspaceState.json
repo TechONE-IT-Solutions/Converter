@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Converter",
-    "\\ConverterTest"
+    ""
   ],
-  "SelectedNode": "\\ConverterTest\\RomanNumeralsConverterTests.cs",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

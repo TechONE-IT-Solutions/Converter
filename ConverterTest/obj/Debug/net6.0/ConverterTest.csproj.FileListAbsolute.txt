@@ -95,9 +95,9 @@ C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\Co
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.AssemblyInfo.cs
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.csproj.CoreCompileInputs.cache
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.sourcelink.json
-C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.csproj.CopyComplete
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.dll
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\refint\ConverterTest.dll
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.pdb
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ConverterTest.genruntimeconfig.cache
 C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\ref\ConverterTest.dll
+C:\Users\TechOne\OneDrive\Desktop\C#\Converter\ConverterTest\obj\Debug\net6.0\Converte.63516BD0.Up2Date

@@ -1,7 +1,8 @@
-namespace BinaryConvertor;
+namespace Converter;
+
 public class BinaryConvertor
 {
-    
+
     public string Convert_decimal_number_to_binary(int baseTenNumber){
 
         string finalBinaryValue = "";
@@ -10,9 +11,6 @@ public class BinaryConvertor
             finalBinaryValue = (baseTenNumber % 2).ToString() + finalBinaryValue;
             baseTenNumber = baseTenNumber / 2;
         }
-
-
-
 
         return finalBinaryValue;
     }
